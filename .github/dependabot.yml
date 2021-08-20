@@ -1,1 +1,8 @@
+version: 2
+updates:
 
+  # Manter dependências para o GitHub Actions
+  - package-ecosystem: "gomod"
+    directory: "/src"
+    schedule:
+      interval: "daily"
