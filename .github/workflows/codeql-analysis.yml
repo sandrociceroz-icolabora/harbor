@@ -5,6 +5,7 @@ on:
   pull_request:
   schedule:
     - cron: '0 16 * * 6'
+  workflow_dispatch:
 
 jobs:
   CodeQL-Build:
