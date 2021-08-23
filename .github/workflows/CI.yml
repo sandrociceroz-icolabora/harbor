@@ -19,6 +19,7 @@ on:
   push:
     paths-ignore:
     - 'docs/**'
+  workflow_dispatch:
 
 jobs:
   UTTEST:
